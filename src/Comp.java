@@ -85,15 +85,15 @@ private Klaviatura klaviatura;
 
     @Override
     public String toString() {
-        return "Comp{" +
-                "displei=" + displei +
-                ", marka='" + marka + '\'' +
-                ", svet='" + svet + '\'' +
-                ", ssd=" + ssd +
-                ", operativka=" + operativka +
-                ", usb=" + usb +
-                ", vidioKarta='" + vidioKarta + '\'' +
-                ", klaviatura=" + klaviatura +
-                '}';
+        return "Computer:\n" +
+                "Displei:" + displei +
+                "marka: " + marka +"\n"+
+                "svet: " + svet +"\n"+
+                "ssd: " + ssd +"\n"+
+                "operativka: " + operativka +"\n"+
+                "usb: " + usb +"\n"+
+                "vidioKarta: " + vidioKarta + "\n" +
+                "klaviatura: " + klaviatura ;
+
     }
 }

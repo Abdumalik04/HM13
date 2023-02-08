@@ -34,10 +34,10 @@ public class Displei {
 
     @Override
     public String toString() {
-        return "Displei{" +
-                "dioganal='" + dioganal + '\'' +
-                ", proizvoditel='" + proizvoditel + '\'' +
-                ", matrisa='" + matrisa + '\'' +
-                '}';
+        return
+                "dioganal: " + dioganal +"\n"+
+                "proizvoditel: " + proizvoditel +"\n"+
+                " matrisa: " + matrisa ;
+
     }
 }

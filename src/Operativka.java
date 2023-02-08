@@ -25,9 +25,9 @@ public class Operativka {
 
     @Override
     public String toString() {
-        return "Operativka{" +
-                "gb='" + gb + '\'' +
-                ", proizvoditel='" + proizvoditel + '\'' +
-                '}';
+        return
+                "gb: " + gb + "\n" +
+                " proizvoditel " + proizvoditel;
+
     }
 }

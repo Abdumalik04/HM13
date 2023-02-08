@@ -25,9 +25,9 @@ public class USB {
 
     @Override
     public String toString() {
-        return "USB{" +
-                "tipPorta=" + tipPorta +
-                ", idPort='" + idPort + '\'' +
-                '}';
+        return
+                "tipPorta: " + tipPorta +"\n"+
+                "idPort: " + idPort ;
+
     }
 }

@@ -24,9 +24,8 @@ public class SSD {
 
     @Override
     public String toString() {
-        return "SSD{" +
-                "ssd=" + ssd +
-                ", disk=" + disk +
-                '}';
+        return  ssd +"\n"+
+                "disk: " + disk ;
+
     }
 }

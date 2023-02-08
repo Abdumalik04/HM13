@@ -6,6 +6,6 @@ Operativka operativka=new Operativka("8","454");
 SSD ssd=new SSD(244,1);
 Displei displei=new Displei("70/30","10","Cor I3");
 Comp comp=new Comp(displei,"Lenovo 15-I","Blue",ssd,operativka,usb,"netu",klaviatura);
-        System.out.println(comp);
+        System.out.println(comp.toString());
     }
 }

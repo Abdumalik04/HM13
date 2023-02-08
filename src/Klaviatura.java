@@ -26,9 +26,9 @@ public class Klaviatura {
 
     @Override
     public String toString() {
-        return "Klaviatura{" +
-                "podsvetka='" + podsvetka + '\'' +
-                ", klaviatura='" + klaviatura + '\'' +
-                '}';
+        return
+                "podsvetka: " + podsvetka + "\n" +
+                "klaviatura: " + klaviatura;
+
     }
 }
